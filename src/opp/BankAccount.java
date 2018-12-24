@@ -46,7 +46,7 @@ public class BankAccount implements IRate {
 	
 	// Allow a user to define the name
 	public void setName(String name) {
-		this.name = "Mr." + name;
+		this.name = "Mr. " + name;
 	}
 	public String getName() {
 		return name;
